@@ -4,13 +4,13 @@
       <hourglass-full theme="two-tone" size="24" :fill="['#efefef', '#00000020']" />
       <span>TimeCapsule</span>
     </div>
-    <span class="text">今日已经度过了&nbsp;{{ timeData.day.elapsed }}&nbsp;小时</span>
+    <span class="text">{{ timeData.day.elapsed }}&nbsp;hour&nbsp;has passed today</span>
     <el-progress :text-inside="true" :stroke-width="20" :percentage="timeData.day.pass" />
-    <span class="text">本周已经度过了&nbsp;{{ timeData.week.elapsed }}&nbsp;天</span>
+    <span class="text">{{ timeData.week.elapsed }}&nbsp;day&nbsp;has passed this week</span>
     <el-progress :text-inside="true" :stroke-width="20" :percentage="timeData.week.pass" />
-    <span class="text">本月已经度过了&nbsp;{{ timeData.month.elapsed }}&nbsp;天</span>
+    <span class="text">{{ timeData.month.elapsed }}&nbsp;day&nbsp;has passed this month</span>
     <el-progress :text-inside="true" :stroke-width="20" :percentage="timeData.month.pass" />
-    <span class="text">今年已经度过了&nbsp;{{ timeData.year.elapsed }}&nbsp;个月</span>
+    <span class="text">{{ timeData.year.elapsed }}&nbsp;month&nbsp;has passed this year</span>
     <el-progress :text-inside="true" :stroke-width="20" :percentage="timeData.year.pass" />
     <div v-if="startDate?.length >= 4 && store.siteStartShow">
       <span class="text" v-html="startDateText" />
