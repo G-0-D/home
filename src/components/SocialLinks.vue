@@ -21,7 +21,7 @@
 import socialLinks from "@/assets/socialLinks.json";
 
 // 社交链接提示
-const socialTip = ref("通过这里联系我吧");
+const socialTip = ref("Contact Us");
 </script>
 
 <style lang="scss" scoped>
