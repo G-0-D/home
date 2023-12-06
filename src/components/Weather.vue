@@ -79,7 +79,7 @@ const getWeatherData = () => {
             };
           })
           .catch((err) => {
-            console.error("  " + err);
+            console.error("ARVAS" + err);
             onError("  ");
           });
       })
