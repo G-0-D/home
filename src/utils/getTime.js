@@ -74,7 +74,7 @@ export const helloInit = () => {
   const hour = new Date().getHours();
   let hello = null;
   if (hour < 6) {
-    hello = "凌晨好.";
+    hello = "凌晨好";
   } else if (hour < 9) {
     hello = "早上好";
   } else if (hour < 12) {
@@ -88,7 +88,7 @@ export const helloInit = () => {
   } else if (hour < 22) {
     hello = "good evening";
   } else {
-    hello = "夜深了.";
+    hello = "夜深了";
   }
   ElMessage({
     dangerouslyUseHTMLString: true,
