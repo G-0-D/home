@@ -6,12 +6,12 @@
   },
   {
     "icon": "LaptopCode",
-    "name": "phpmyadmin",
-    "link": "https://arvas.net.cn/phpmyadmin/"
+    "name": "PhpMyAdmin",
+    "link": "https://www.arvas.net.cn/phpmyadmin/"
   },
   {
-    "icon": "book",
-    "name": "baidu",
+    "icon": "Compass",
+    "name": "Baidu",
     "link": "https://www.baidu.com/"
   },
   {
