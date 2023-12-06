@@ -2,7 +2,7 @@
   <div class="time-capsule">
     <div class="title">
       <hourglass-full theme="two-tone" size="24" :fill="['#efefef', '#00000020']" />
-      <span>时光胶囊</span>
+      <span>TimeCapsule</span>
     </div>
     <span class="text">今日已经度过了&nbsp;{{ timeData.day.elapsed }}&nbsp;小时</span>
     <el-progress :text-inside="true" :stroke-width="20" :percentage="timeData.day.pass" />
