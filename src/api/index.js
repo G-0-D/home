@@ -50,7 +50,7 @@ export const getHitokoto = async () => {
 
 /**
  * 天气
- */
+ 
 
 // 获取高德地理位置信息
 export const getAdcode = async (key) => {
@@ -72,3 +72,4 @@ export const getOtherWeather = async () => {
   const res = await fetch("https://api.oioweb.cn/api/weather/GetWeather");
   return await res.json();
 };
+*/
